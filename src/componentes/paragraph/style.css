@@ -1,0 +1,23 @@
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    color: gray;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.frase {
+    width: 50%;
+    font-weight: bold;
+}
