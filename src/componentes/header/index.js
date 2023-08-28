@@ -10,8 +10,11 @@ function Header() {
                     <li><a href="http://localhost:3000/">Seja um Parceiro</a></li>   
                 </ul>
             </nav>
-            <a className="nome" href="http://localhost:3000/">Mello4All</a>
-            <p>Transformamos a complexidade em simplicidade</p>            
+            <div className="logoName">
+                <a className="nome" href="http://localhost:3000/">Mello4All</a>
+                <p>Transformamos a complexidade em simplicidade</p> 
+            </div>
+                       
         </header>
     );
 }

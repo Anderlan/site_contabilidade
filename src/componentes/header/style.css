@@ -1,7 +1,7 @@
 .backgroundImg {
     height: 100vh;
     width: 100%;
-    background-image: url("../../../public/assets/gardening.jpg");
+    background-image: url("../../assets/gardening.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     }
@@ -45,4 +45,11 @@ header p{
     font-weight: bold;
     justify-content: left;
     align-items: flex-end;
+}
+
+.logoName{
+    height: 100%;
+    text-align: left;
+    padding-left: 50px;
+    align-self: end;
 }
