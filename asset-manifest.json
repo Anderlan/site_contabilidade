@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/site_contabilidade/static/css/main.0187e9c1.css",
+    "main.js": "/site_contabilidade/static/js/main.ff4c11c1.js",
+    "static/js/787.d58e0e50.chunk.js": "/site_contabilidade/static/js/787.d58e0e50.chunk.js",
+    "static/media/gardening.jpg": "/site_contabilidade/static/media/gardening.87be9ce5fc79b6da1263.jpg",
+    "static/media/business.jpg": "/site_contabilidade/static/media/business.5b9cb8da21eab93d610d.jpg",
+    "static/media/presentation.jpg": "/site_contabilidade/static/media/presentation.af6b90f9220453f77717.jpg",
+    "static/media/computer.jpg": "/site_contabilidade/static/media/computer.5e2fb81222a9554922aa.jpg",
+    "index.html": "/site_contabilidade/index.html",
+    "main.0187e9c1.css.map": "/site_contabilidade/static/css/main.0187e9c1.css.map",
+    "main.ff4c11c1.js.map": "/site_contabilidade/static/js/main.ff4c11c1.js.map",
+    "787.d58e0e50.chunk.js.map": "/site_contabilidade/static/js/787.d58e0e50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0187e9c1.css",
+    "static/js/main.ff4c11c1.js"
+  ]
+}
