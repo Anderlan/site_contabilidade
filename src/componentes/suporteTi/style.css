@@ -1,0 +1,27 @@
+.containerCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #444442;
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.leftContainerCard {
+    width: 60%;
+    text-align: left;
+    align-items: first baseline;
+    padding: 50px;
+}
+
+.rightContainerCard {
+    width: 40%;
+
+}
+
+.leftContainerCard li{
+    font-size: 20px;
+}
