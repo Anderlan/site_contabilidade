@@ -7,7 +7,7 @@ function Header() {
             <navbar>
                 <ul className="linkNav">
                     <li><a href="http://localhost:3000/">Fale Conosco</a></li> 
-                    <li><a href="http://localhost:3000/">Seja um Parceiro</a></li>   
+                    {/* <li><a href="http://localhost:3000/">Seja um Parceiro</a></li>    */}
                 </ul>
             </navbar>
             <div className="logoName">

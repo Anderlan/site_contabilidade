@@ -1,15 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './style.css';
 
 function Card(props) {
   return (
-    <div className="boxCard">
+    <a className="boxCard" href={props.link}>
       <img className="imagemCard" src={props.imagem} alt={props.name} />
       <div className="textCard">{props.textCard}</div>
-      <Link to="/suporteTi">Teste</Link>
-    </div >
-  )
+    </a>
+  );
 }
 
 export default Card;
