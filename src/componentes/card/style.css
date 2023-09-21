@@ -26,10 +26,10 @@
 
 a {
   text-decoration: none;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 a:hover {
-  transition: 1s;
+  transition: 0.5Ss;
   transform: translateY(-20px);
 }
