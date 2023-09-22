@@ -5,7 +5,6 @@ import Services from './componentes/services';
 import Paragraph from './componentes/paragraph';
 import Footer from "./componentes/footer";
 // import SuporteTI from "./componentes/suporteTi";
-import TelaModal from "./componentes/modal";
 
 import './App.css';
 
@@ -16,7 +15,6 @@ function App() {
             <Services />
             <Paragraph />
             <Footer />
-            <TelaModal />
         </div>
     );
 }

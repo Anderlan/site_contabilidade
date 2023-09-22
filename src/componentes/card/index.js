@@ -18,16 +18,16 @@ function Card(props) {
   }
 
   return (
-    <a className="boxCard">
+    <div className="boxCard">
       <button onClick={abrirModal}>
         <img className="imagemCard" src={props.imagem} alt={props.name} />
         <div className="textCard">{props.textCard}</div>
       </button>
-      <Modal isOpen={modalIsOpen} onRequestClose={fecharModal} contentLabel={props.textCard}>
-        <button onClick={fecharModal}>Fechar</button>
+      <Modal isOpen={modalIsOpen} onRequestClose={fecharModal} contentLabel={props.textCard} style={{content: {backgroundColor: 'none', margin: '0px', padding: '0px'}}}>
+        <button className="buttonModal" onClick={fecharModal}>Fechar</button>
         <SuporteTi />        
       </Modal>
-    </a>
+    </div>
   );
 }
 
