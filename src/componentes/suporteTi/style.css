@@ -1,26 +1,104 @@
+.containerService{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 .containerCard {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     background-color: #444442;
     color: white;
     height: 100%;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
-
 .leftContainerCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: space-between;
     width: 60%;
-    text-align: left;
-    align-items: first baseline;
-    padding: 50px;
+    text-align: left;    
+    /* padding: 50px; */
 }
 
 .rightContainerCard {
+    height: 100%;
     width: 40%;
 }
 
+.leftContainerCard ul {
+    padding: 30px 90px;
+}
+
 .leftContainerCard li{
+    font-size: 25px;
+    font-weight: normal;
+    list-style-type: disc; 
+    padding-bottom: 20px;
+}
+
+.rightContainerCard > .imagesRight{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+h1 {
+    padding: 20px;
+    font-size: 80px;
+}
+
+h2 {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.leftContainerCard > p {
+    padding: 20px;
     font-size: 20px;
+}
+
+.botoes {
+    font-size: 30px;
+    color: black;
+}
+
+.botoes ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botoes ul li{
+    /* padding-top: 30px; */
+    list-style-type: none; 
+}
+
+.saibaMais{
+    padding: 15px 30px 15px 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+    background-image: linear-gradient(to right, #ffe258, #ff994e);
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.duvidasFrequentes {
+    padding: 15px 30px 15px 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+    background-color: #00bf63;
+    text-shadow: none;
+    font-weight: bold;
 }
