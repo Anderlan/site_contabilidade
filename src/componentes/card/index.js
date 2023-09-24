@@ -23,7 +23,7 @@ function Card(props) {
         <img className="imagemCard" src={props.imagem} alt={props.name} />
         <div className="textCard">{props.textCard}</div>
       </button>
-      <Modal isOpen={modalIsOpen} onRequestClose={fecharModal} contentLabel={props.textCard} style={{content: {backgroundColor: 'none', margin: '0px', padding: '0px'}}}>
+      <Modal isOpen={modalIsOpen} onRequestClose={fecharModal} contentLabel={props.textCard} style={{content: {backgroundColor: 'none', margin: '0', padding: '0', borderRadius: 0}}}>
         <button className="buttonModal" onClick={fecharModal}>Fechar</button>
         <SuporteTi />        
       </Modal>

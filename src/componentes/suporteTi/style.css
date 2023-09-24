@@ -1,37 +1,27 @@
 .containerService{
-    display: flex;
-    flex-direction: column;
     height: 100%;
-    margin: 0px;
-    padding: 0px;
+    width: 100%;
 }
 
 .containerCard {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
     background-color: #444442;
     color: white;
     height: 100%;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
 }
 
 .leftContainerCard {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: space-between;
     width: 60%;
-    text-align: left;    
-    /* padding: 50px; */
+    height: 100%;
+    text-align: left;  
+    padding-left: 40px;
 }
 
 .rightContainerCard {
     height: 100%;
-    width: 40%;
+    width: 39%;
 }
 
 .leftContainerCard ul {
@@ -42,22 +32,21 @@
     font-size: 25px;
     font-weight: normal;
     list-style-type: disc; 
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
-.rightContainerCard > .imagesRight{
-    height: 100%;
+.imagesRight{
+    height: 99.55%;
     width: 100%;
-    margin: 0px;
 }
 
 h1 {
-    padding: 20px;
+    padding-top: 60px;
     font-size: 80px;
 }
 
 h2 {
-    padding: 20px;
+    padding-top: 20px;
     font-size: 30px;
 }
 
