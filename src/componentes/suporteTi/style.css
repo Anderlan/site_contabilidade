@@ -13,15 +13,15 @@
 }
 
 .leftContainerCard {
-    width: 60%;
+    width: 65%;
     height: 100%;
     text-align: left;  
-    padding-left: 40px;
+    padding-left: 60px;
 }
 
 .rightContainerCard {
     height: 100%;
-    width: 39%;
+    width: 35%;
 }
 
 .leftContainerCard ul {
@@ -36,8 +36,13 @@
 }
 
 .imagesRight{
-    height: 99.55%;
+    height: 100%;
     width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
 }
 
 h1 {
@@ -58,6 +63,7 @@ h2 {
 .botoes {
     font-size: 30px;
     color: black;
+    margin-top: 25px;
 }
 
 .botoes ul{
