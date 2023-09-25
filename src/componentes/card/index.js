@@ -3,15 +3,10 @@ import Modal from 'react-modal';
 // import { Link } from 'react-router-dom';
 import './style.css';
 
-import SuporteTi from "../suporteTi";
+import SuporteTi from "../SuporteTi";
+import SuporteAdm from "../SuporteAdm";
 
-
-// function comp_render(props){
-//   const comp = props.name;
-//     if (comp === "Suporte de TI"){
-//       return <SuporteTi />;
-//       }
-// }
+import PlanilhasPresonalizadas from "../PlanilhasPresonalizadas";
 
 function Card(props) {
   const [modalIsOpen, setIsOpen] = useState(false);
@@ -26,11 +21,11 @@ function Card(props) {
     }
 
     if(props.textCard === "Suporte administrativo"){
-      return "Adm";
+      return <SuporteAdm />;
     }
 
     if(props.textCard === "Planilhas Personalizadas"){
-      return "Planilhas";
+      return <PlanilhasPresonalizadas />;
     }
   }
 

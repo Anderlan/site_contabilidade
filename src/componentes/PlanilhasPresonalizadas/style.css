@@ -29,12 +29,15 @@
     width: 35%;
 }
 
-.leftContainerCard > li{
+.leftContainerCard ul {
+    padding: 30px 90px;
+}
+
+.leftContainerCard li{
     font-size: 25px;
     font-weight: normal;
     list-style-type: disc; 
     padding-bottom: 20px;
-    padding-left: 25px;
 }
 
 .rightContainerCard > .imagesRight{
@@ -68,14 +71,14 @@ a {
     padding-top: 20px;
 }
 
-.botoes > ul{
+.botoes ul{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-.botoes > ul > li{
+.botoes ul li{
     list-style-type: none; 
 }
 

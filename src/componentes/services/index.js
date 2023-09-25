@@ -6,8 +6,6 @@ import Presentation from "../../assets/presentation.jpg";
 import Business from "../../assets/business.jpg";
 import Computer from "../../assets/computer.jpg";
 
-import SuporteTi from "../suporteTi";
-
 function Services(){
     return(
         <main>

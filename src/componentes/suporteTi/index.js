@@ -3,7 +3,7 @@ import "./style.css"
 
 import ImgTi from "../../assets/imgleft.jpg";
 
-function SuporteTi({children}) {
+function SuporteTi() {
     return (
         <div className="containerService">
             <div className="containerCard">
