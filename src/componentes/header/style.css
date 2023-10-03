@@ -1,9 +1,10 @@
 .backgroundImg {
-    height: 100vh;
-    width: 100%;
-    background-image: url("../../assets/gardening.jpg");
+    height: 641px;
+    width: 1324px;
+    background-image: url("../../assets/gardening2.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin: auto;
 }
 
 .linkNav {
