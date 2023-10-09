@@ -1,18 +1,8 @@
-.backgroundImg {
-    height: 641px;
-    width: 1324px;
-    background-image: url("../../assets/gardening2.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-
 .linkNav {
     display: flex;
     flex-direction: row;
     justify-content: right;
     align-items: center;
-    width: 100%;
 }
 
 li {
@@ -26,41 +16,7 @@ li a {
     color: white;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    /* align-content: space-between; */
-    /* border: 2px solid black; */
-}
-
-header a {
-    text-decoration: none;
-    text-shadow: 1px 1px 4px #000000;
-    justify-content: left;
-}
-
-.nome {
-    font-size: 73px;
-    color: white;
-}
-
-header p {
-    text-shadow: 1px 1px 4px #000000;
-    width: 100%;
-    color: white;
-    font-weight: bold;
-    justify-content: left;
-    align-items: flex-end;
-}
-
-.logoName {
-    padding-left: calc(100vh/2);
-    padding-top: calc(100vh/2);
-    text-align: left;
-    height: 100%;
-}
-
-.logoName > p {
-    font-size: 20px;
-    font-weight: bold;
+navbar{
+    position: absolute;
+    right: 0px;
 }

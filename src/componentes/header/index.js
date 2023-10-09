@@ -1,19 +1,17 @@
 import React from "react";
 import './style.css'
 
+import Gardening from '../../assets/gardening2.jpg';
+
 function Header() {
     return(
-        <header className="backgroundImg">
+        <header>
             <navbar>
                 <ul className="linkNav">
                     <li><a href="#footer">Fale Conosco</a></li> 
                 </ul>
-            </navbar>
-            <div className="logoName">
-                {/* <a className="nome" href="http://localhost:3000/">Mello4All</a>
-                <p>Transformamos a complexidade em simplicidade</p>  */}
-            </div>
-                       
+            </navbar> 
+            <img src={Gardening} alt="Gardening"></img>           
         </header>
     );
 }

@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 400px;
   height: 320px;
   text-decoration: none;
@@ -11,8 +11,9 @@
 }
 
 .imagemCard {  
-  margin: 0;
+  display: block;
   padding: 0;
+  margin: 0;
 }
 
 .textCard {
@@ -22,9 +23,7 @@
   font-size: 20px;
   font-weight: bold;
   text-align: left;
-  box-sizing: border-box;
   padding: 15px;
-  margin-top: -3px;
 }
 
 .boxCard:hover {

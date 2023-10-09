@@ -30,8 +30,8 @@ function Card(props) {
   }
 
   return (
-    <div className="boxCard">
-      <button onClick={abrirModal}>
+    <div>
+      <button onClick={abrirModal} className="boxCard">
         <img className="imagemCard" src={props.imagem} alt={props.name} />
         <div className="textCard">{props.textCard}</div>
       </button>
