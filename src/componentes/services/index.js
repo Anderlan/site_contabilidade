@@ -10,11 +10,12 @@ function Services(){
     return(
         <main>
             <h1>Nossos Serviços</h1>
-            <p>Potencialize sua rotina com nossos serviços versáteis: suporte técnico, soluções de TI, assistência administrativa e elaboração de planilhas personalizdas para o seu negócio ou uso pessoal.</p>
+            <p>Potencialize sua rotina com nossos serviços versáteis: suporte técnico, soluções de TI, assistência administrativa e 
+               elaboração de planilhas personalizadas para o seu negócio ou uso pessoal.</p>
             <div className="cards">
-                <Card imagem = { Computer } name="Computer" textCard="Suporte de TI" />
-                <Card imagem = { Business } name="Business" textCard="Suporte administrativo" />
                 <Card imagem = { Presentation } name="Presentation" textCard="Planilhas Personalizadas" />
+                <Card imagem = { Business } name="Business" textCard="Suporte administrativo" />
+                <Card imagem = { Computer } name="Computer" textCard="Suporte de TI" />        
             </div>
         </main>
     );
