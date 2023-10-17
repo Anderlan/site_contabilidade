@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css"
 
 import ImgTi from "../../assets/imgleft.jpg";
+import Faq from "../faq"
 
 function SuporteTi() {
     return (
@@ -26,7 +27,7 @@ function SuporteTi() {
                     <div className="botoes">
                         <ul>    
                             <li><a href="/" className="saibaMais">Saiba Mais</a></li>
-                            <li><a href="/" className="duvidasFrequentes">Dúvidas Frequentes</a></li>
+                            <li><a href={Faq} className="duvidasFrequentes">Dúvidas Frequentes</a></li>
                         </ul>
                     </div>
                 </div>
