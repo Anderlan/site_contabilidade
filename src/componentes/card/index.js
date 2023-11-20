@@ -5,7 +5,6 @@ import './style.css';
 
 import SuporteTi from "../SuporteTi";
 import SuporteAdm from "../SuporteAdm";
-
 import PlanilhasPresonalizadas from "../PlanilhasPresonalizadas";
 
 function Card(props) {
