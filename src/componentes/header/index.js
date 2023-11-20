@@ -5,14 +5,12 @@ import Gardening from '../../assets/gardening2.jpg';
 
 function Header() {
     return(
-        <header>
-            <navbar>
-                <ul className="linkNav">
-                    <li><a href="#footer">Fale Conosco</a></li> 
-                </ul>
-            </navbar> 
-            <img src={Gardening} alt="Gardening"></img>           
-        </header>
+        <header className="headerApp">
+        <img className="imgHeader" src={ Gardening } alt="Header"/>   
+        <div className="MenuSuperior">
+          <a href="/">Fale Conosco</a>
+        </div>
+    </header>
     );
 }
 

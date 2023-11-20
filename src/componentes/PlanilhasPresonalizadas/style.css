@@ -65,7 +65,7 @@ a {
     font-size: 20px;
 }
 
-.botoes {
+button {
     font-size: 30px;
     color: black;
     padding-top: 20px;
@@ -99,5 +99,15 @@ a {
     color: black;
     background-color: #00bf63;
     text-shadow: none;
+    font-weight: bold;
+}
+
+.button_Modal_pf {
+    font-size: 20px;
+    background-color: transparent;
+    color: black;
+    position: absolute;
+    right: 20px;
+    top: 15px;
     font-weight: bold;
 }

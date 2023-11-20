@@ -1,5 +1,6 @@
 main {
-    margin: 50px;
+    padding: 50px;
+    background-color: white;
 }
 
 main h1 {
@@ -19,7 +20,9 @@ main p {
 .cards {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
