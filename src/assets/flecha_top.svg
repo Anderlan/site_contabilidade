@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="flecha_top.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="1.0869005"
+     inkscape:cx="272.79407"
+     inkscape:cy="292.11507"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path1"
+       style="fill:#000000;stroke-width:1.0654"
+       d="M 256 0 A 256 256 0 0 0 0 256 A 256 256 0 0 0 256 512 A 256 256 0 0 0 512 256 A 256 256 0 0 0 256 0 z M 257.9082 124.07617 C 262.59591 124.07617 267.24237 125.20161 271.58203 127.22656 C 271.58386 127.22742 271.58606 127.22766 271.58789 127.22852 C 275.5024 128.82135 279.17371 131.21082 282.35938 134.39648 L 453.48828 305.52539 C 466.23093 318.26804 466.23093 338.7847 453.48828 351.52734 C 440.74564 364.26999 420.22897 364.26999 407.48633 351.52734 L 258.25195 202.29297 L 109.78125 350.76367 C 97.038618 363.50631 76.521929 363.50631 63.779297 350.76367 C 51.036665 338.02104 51.036665 317.50435 63.779297 304.76172 L 234.9082 133.63281 C 241.27953 127.2615 249.59329 124.07617 257.9082 124.07617 z " />
+    <g
+       id="g2"
+       transform="translate(6.7995255,39.840095)"
+       style="display:inline" />
+  </g>
+</svg>
