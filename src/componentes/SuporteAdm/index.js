@@ -1,9 +1,15 @@
-import React from "react";
-import "./style.css"
+import React, { useState } from "react";
+import "./style.css";
+import Modal from 'react-modal';
+import Faq from "../faq";
 
 import ImgTi from "../../assets/imgleft.jpg";
 
 function SuporteAdm() {
+    const [modalIsOpen, setIsOpen] = useState(false);
+    function abrirModal() { setIsOpen(true); }
+    function fecharModal() { setIsOpen(false); }
+
     return (
         <div className="containerService">
             <div className="containerCard">                
@@ -23,7 +29,15 @@ function SuporteAdm() {
                     <div className="botoes">
                         <ul>    
                             <li><a href="/" className="saibaMais">Saiba Mais</a></li>
-                            <li><a href="/" className="duvidasFrequentes">Dúvidas Frequentes</a></li>
+                            <li>
+                                <button onClick={abrirModal} className="duvidasFrequentes">
+                                    Dúvidas Frequentes
+                                </button>
+                                <Modal isOpen={modalIsOpen} onRequestClose={fecharModal} contentLabel="Dúvidas Frequentes" style={{ content: { backgroundColor: "whitesmoke", margin: '0', padding: '0', borderRadius: 0 } }}>
+                                    <button className="button_Modal_pf" onClick={fecharModal}>Fechar</button>
+                                    < Faq />
+                                </Modal>
+                            </li>
                         </ul>
                     </div>                    
                 </div>

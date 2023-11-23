@@ -1,7 +1,8 @@
-import React, {useState} from "react";
-import "./style.css"
+import React, { useState } from "react";
+import "./style.css";
 import Modal from 'react-modal';
 import Faq from "../faq";
+import Formulario from "../formulario";
 
 import ImgTi from "../../assets/imgleft.jpg";
 
@@ -9,6 +10,10 @@ function SuporteTi() {
     const [modalIsOpen, setIsOpen] = useState(false);
     function abrirModal() { setIsOpen(true); }
     function fecharModal() { setIsOpen(false); }
+
+    const [modalIsOpenForm, setIsOpenForm] = useState(false);
+    function abrirModalForm() { setIsOpenForm(true); }
+    function fecharModalForm() { setIsOpenForm(false); }
 
     return (
         <div className="containerService">
@@ -30,7 +35,15 @@ function SuporteTi() {
                     </ul>
                     <div className="botoes">
                         <ul>    
-                            <li><a href="/" className="saibaMais">Saiba Mais</a></li>
+                            <li>
+                                <button onClick={abrirModalForm} className="saibaMais">
+                                    Saiba Mais
+                                </button>
+                                <Modal isOpen={modalIsOpenForm} onRequestClose={fecharModalForm} contentLabel="Saiba Mais" style={{ content: { backgroundColor: "whitesmoke", margin: '0', padding: '0', borderRadius: 0 } }}>
+                                    <button className="button_Modal_pf" onClick={fecharModalForm}>Fechar</button>
+                                    < Formulario />
+                                </Modal>
+                            </li>
 
                             <li>
                                 <button onClick={abrirModal} className="duvidasFrequentes">

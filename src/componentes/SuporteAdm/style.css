@@ -20,13 +20,13 @@
     flex-wrap: wrap;
     align-items: space-between;
     height: 100%;
-    width: 65%;
+    width: 70%;
     text-align: left;    
 }
 
 .rightContainerCard {
     height: 100%;
-    width: 35%;
+    width: 30%;
 }
 
 .leftContainerCard ul {
@@ -34,7 +34,7 @@
 }
 
 .leftContainerCard li{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: normal;
     list-style-type: disc; 
     padding-bottom: 20px;
@@ -51,8 +51,8 @@ a {
 }
 
 .leftContainerCard > h1 {
-    padding: 50px;
-    font-size: 80px;
+    padding-top: 50px;
+    font-size: 70px;
 }
 
 .leftContainerCard > h2 {
@@ -65,7 +65,7 @@ a {
     font-size: 20px;
 }
 
-.botoes {
+button {
     font-size: 30px;
     color: black;
     padding-top: 20px;
@@ -99,5 +99,15 @@ a {
     color: black;
     background-color: #00bf63;
     text-shadow: none;
+    font-weight: bold;
+}
+
+.button_Modal_pf {
+    font-size: 20px;
+    background-color: transparent;
+    color: black;
+    position: absolute;
+    right: 20px;
+    top: 15px;
     font-weight: bold;
 }
