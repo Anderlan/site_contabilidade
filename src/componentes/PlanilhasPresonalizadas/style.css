@@ -65,11 +65,11 @@ a {
     font-size: 20px;
 }
 
-button {
+/* button {
     font-size: 30px;
     color: black;
     padding-top: 20px;
-}
+} */
 
 .botoes ul{
     display: flex;

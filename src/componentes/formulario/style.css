@@ -1,34 +1,47 @@
+.formulario {
+  border: 1px solid black;
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
+
 form {
-    /* Apenas para centralizar o form na página */
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 500px;
-    /* Para ver as bordas do formulário */
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
-    vertical-align: center;
-  }
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 1em;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
-  form div + div {
-    margin-top: 1em;
-  }
+form div + div {
+  margin-top: 1em;
+}
 
-  label {
-    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
-    display: inline-block;
-    width: 90px;
-    text-align: right;
-    padding-right: 10px;
-  }
+label {
+  display: inline-block;
+  width: 15%;
+  text-align: right;
+  padding-right: 10px;
+}
 
 input,
-textarea {
-  width: 350px;
+textarea,
+select {
+  width: 85%;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid #999;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+textarea {
+  min-height: 200px;
 }
 
 input:focus,
@@ -37,16 +50,28 @@ textarea:focus {
 }
 
 textarea {
-    vertical-align: top;
-    height: 5em;
-    resize: vertical;
-  }
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
 
-.button {
-    padding-left: 90px;
-    font-size: 20px;
- }
+.botao_formulario button {
+  border: 1px solid black;
+  width: 30%;
+  padding: 1.5rem;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+}
 
-button {
-    margin-left: 0.5em;
+form p{
+  color: black;
+  font-size: 1.2rem;
+  margin-top: 4rem;
+  padding: 0;
+  font-weight: bold;
+  text-align: center;
+  
 }
